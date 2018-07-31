@@ -35,7 +35,7 @@ add new user
 
 **PUT**
 
-Header
+> Header
 Content-Type : application/json
 
 
