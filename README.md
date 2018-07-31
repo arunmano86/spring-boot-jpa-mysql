@@ -1,16 +1,16 @@
 # spring-boot-jpa-mysql
 
-# API
+# REST API
 
-# GET
+GET
 http://localhost:8080/users
 
-# GET
+GET
 http://localhost:8080/users/{id}
 
 
 
-# POST
+POST
 
 Header
 Content-Type : application/json
@@ -22,7 +22,7 @@ http://localhost:8080/users
   "salary": 6000
 }
 
-# PUT
+PUT
 
 Header
 Content-Type : application/json
@@ -37,6 +37,6 @@ http://localhost:8080/users/{id}
 }
 
 
-# DELETE
+DELETE
 
 http://localhost:8080/users/{id}
