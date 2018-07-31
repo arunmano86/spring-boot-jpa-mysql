@@ -2,13 +2,13 @@
 
 # REST API
 
-GET
+**GET**
 
 http://localhost:8080/users
 
 get All users details.
 
-GET
+**GET**
 
 http://localhost:8080/users/{id}
 
@@ -16,9 +16,9 @@ get single user detail by "id".
 
 
 
-POST
+**POST**
 
-Header
+> Header
 Content-Type : application/json
 
 http://localhost:8080/users
@@ -33,7 +33,7 @@ add new user
 
 
 
-PUT
+**PUT**
 
 Header
 Content-Type : application/json
@@ -51,7 +51,7 @@ http://localhost:8080/users/{id}
 update user by {id}
 
 
-DELETE
+**DELETE**
 
 http://localhost:8080/users/{id}
 
