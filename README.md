@@ -3,10 +3,16 @@
 # REST API
 
 GET
+
 http://localhost:8080/users
 
+get All users details.
+
 GET
+
 http://localhost:8080/users/{id}
+
+get single user detail by "id".
 
 
 
@@ -22,10 +28,15 @@ http://localhost:8080/users
   "salary": 6000
 }
 
+add new user
+
+
+
 PUT
 
 Header
 Content-Type : application/json
+
 
 http://localhost:8080/users/{id}
 
@@ -36,7 +47,11 @@ http://localhost:8080/users/{id}
   "id": 1 
 }
 
+update user by {id}
+
 
 DELETE
 
 http://localhost:8080/users/{id}
+
+delete user by {id}
