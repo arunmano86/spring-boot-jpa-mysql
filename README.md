@@ -56,3 +56,6 @@ update user by {id}
 http://localhost:8080/users/{id}
 
 delete user by {id}
+
+
+*ref: https://javabrains.thinkific.com/courses/springboot-quickstart*
